@@ -17,7 +17,7 @@ const Index=()=>{
       <div className="content ct2">
         <Header 
           h3="What travel do you want?" 
-          h6="h6이 있음" 
+          h6="h6이 있습니다." 
           p="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae orci at eros eleifend ultricies ut quis turpis."
         />
         <section></section>
