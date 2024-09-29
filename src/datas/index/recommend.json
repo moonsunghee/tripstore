@@ -1,0 +1,39 @@
+[
+  {
+    "class" : "day1",
+    "title": "몽돌해수욕장",
+    "list": [
+      { "listItem": "해수욕하기1" },
+      { "listItem": "해수욕하기2" },
+      { "listItem": "해수욕하기3" }
+    ]
+  },
+  {
+    "class" : "day2",
+    "title": "협제해수욕장",
+    "list": [
+      { "listItem": "해수욕하기1" },
+      { "listItem": "해수욕하기2" },
+      { "listItem": "해수욕하기3" }
+    ]
+  },
+  {
+    "class" : "day3",
+    "title": "서귀포해수욕장",
+    "list": [
+      { "listItem": "해수욕하기1" },
+      { "listItem": "해수욕하기2" },
+      { "listItem": "해수욕하기3" }
+    ]
+  },
+  {
+    "class":"day4",
+    "title":"중문해수욕장",
+    "list":[
+      { "listItem": "해수욕하기1" },
+      { "listItem": "해수욕하기2" },
+      { "listItem": "해수욕하기3" },
+      { "listItem": "해수욕하기4" }
+    ]
+  }
+]
