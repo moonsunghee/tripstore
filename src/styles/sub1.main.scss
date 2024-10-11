@@ -1,0 +1,63 @@
+.mnWrap{
+  padding: 120px 0;
+  main{
+    .genderAge{
+      .gender{
+        h4{}
+        .form{
+          input{
+            display: none;
+          }
+          input+label{
+            &::before{
+              display: block;
+              content: url('../assets/images/circle-regular.svg');
+              width: 30px; height: 30px;
+            }
+            cursor: pointer;
+          }
+          input:checked+label{
+            &::before{
+              content: url('../assets/images/circle-dot-solid.svg');
+            }
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .selectBox{
+      display: flex;
+      align-items: center;
+      border: 1px solid #000;
+      width: calc(50% - 10px);
+      position: relative;
+
+      
+      
+      select{
+        &::before{
+          display: block;
+          content: url('../assets/images/circle-dot-solid.svg');
+          width: 30px; height: 30px;
+        }
+        border: 0;
+        width: calc(100% - 30px);
+        height: 40px;
+        appearance: none;
+        background-color: transparent;
+        &:focus{
+          border: 0;
+        }
+        option{}
+      }
+
+      &::after{
+        display: block;
+        content: url('../assets/images/circle-dot-solid.svg');
+        width: 30px; height: 30px;
+        position: absolute;
+        right: 0;
+      }
+    }
+  }
+}

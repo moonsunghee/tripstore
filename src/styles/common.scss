@@ -2,3 +2,48 @@
 @import '_color';
 @import url('all.css');
 @import url('reset.scss');
+.hdrWrap{
+  display: none;
+}
+.content{
+  padding: 120px 0;
+  header{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    //첫번째 가상요소
+    &::before{
+      display: inline-block;
+      content: "";
+      width: 200px;
+      height: 10px;
+      background-color: #f00;
+
+    }
+    h3{
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 80px;
+    }
+    p{
+      font-size: 14px;
+      font-weight: 100;
+      line-height: 20px;
+    }
+    //마지막 가상요소
+    // &::after{
+    //   display: block;
+    //   content: "test text";
+    // }
+  }
+  section{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+}
+.ftrWrap{
+  display: none;
+}
